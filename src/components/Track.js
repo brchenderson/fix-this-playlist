@@ -1,10 +1,17 @@
 import React from 'react';
 
 
-const Track = () => (
-  <li>
-    <p><strong>Artist Name </strong> - Song Name</p>
-  </li>
-);
+const breakOutArtists = (artists) => {
+  //Iterate and return all with commas
+  return artists[0].name;
+}
+
+const Track = (props) => {
+    return(
+      <li>
+        <p><strong>{breakOutArtists(props.props.artists)} </strong> - {props.props.name}</p>
+      </li>
+    )
+}
 
 export default Track;

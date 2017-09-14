@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "1.0.10"
   },
   "scripts": {
